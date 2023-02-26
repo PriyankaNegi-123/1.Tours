@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.underline{
+  width: 5rem;
+  height: 4px;
+  background-color: rgb(79, 79, 196);
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+  margin: 3rem auto;
+}
+
+img{
+  width: 100%;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  margin: auto;
+}
+
+article{
+  border: 2px solid rgb(227, 221, 221);
+  box-shadow: 0.4px 0.6px 12px gray;
+  margin-bottom: 2rem;
+}
+
+.tour-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-price{
+  color: blue;
+}
+
+h4{
+  font-size: 1.2rem;
+}
+p{
+  /* font-size: 16px; */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+button{
+  display: flex;
+  margin: auto;
+  background-color: orange;
+  font-size: 1.3rem;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  color:rgb(9, 9, 52);
+  box-shadow: 0.4px 0.4px 7px rgb(129, 121, 121);
+  cursor: pointer;
+}
+
+footer{
+  padding: 3rem;
+}
+
